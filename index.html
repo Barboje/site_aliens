@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Aliens Code</title>
+    <link rel="shortcut icon" href="img/alien.png" <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css">
+
+</head>
+
+<body>
+
+    <nav class="menu navbar navbar-expand-lg navbar-dark">
+        <a class="logo navbar-brand" href="#home">ALIENS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="itens collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">HOME <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#nos">NÓS</a>
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            SOLUÇÕES
+                        </a>
+                        <div class="itens1 dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="drop-interno dropdown-item" href="#">FÁBRICA DE SOFTWARE</a>
+                            <a class="drop-interno dropdown-item" href="#">MOBILE</a>
+                            <a class="drop-interno dropdown-item" href="#">SHAREPOINT</a>
+                    </li>
+                </ul>
+                <a class="nav-item nav-link" href="#">CLIENTES</a>
+                <a class="nav-item nav-link" href="#carreira">CARREIRA</a>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="false">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/bk_galaxia5.jpg" class="d-block w-100" alt="#home">
+                <class class="carousel-caption d-none d-md-block h-50">
+                    <h1 class="titulo">Welcome</h1>
+                    <h1 class="nome-empresa">A L I E N S C O D E</h1>
+                    <h1 class="subtitulo">ARE YOU READY TO BE ABDUCTED?</h1>
+                    <spam type="button" class="home-blog1">EXPLORE</spam>
+            </div>
+
+            <script>
+
+                function typeWriter(elemento) {
+                    const textoArray = elemento.innerHTML.split('');
+                    elemento.innerHTML = '';
+                    textoArray.forEach((letra, i) => {
+                        setTimeout(() => elemento.innerHTML += letra, 80 * i);
+                    });
+
+                }
+                var subtitulo = document.querySelector('.nome-empresa');
+                typeWriter(subtitulo);
+
+                function myFunction() {
+                    var x = document.getElementById("myTopnav");
+                    if (x.className === "topnav") {
+                        x.className += " responsive";
+                    } else {
+                        x.className = "topnav";
+                    }
+                }
+
+            </script>
+
+
+            <div class="carousel-item">
+                <img src="img/bk_galaxia2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/bk_galaxia2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <section class="discover" id="nos">
+        <div class="container">
+            <class class="row">
+                <div class="col-sm-12 col-md-6" id="">
+                    <h2 class="descubra">Discover</h2>
+                    <h2 class="story"><strong>O U R &nbsp;S T O R Y</strong></h2>
+
+                    <h2 class="texto-story">A <strong>Aliens</strong> é uma empresa de tecnologia. Especializada por dar
+                        sentido e vida ao seu
+                        projeto.
+                        Aqui, você tira seus planos do papel e nós criamos (deixa com a gente!), utilizamos de design
+                        atrativos e de
+                        <strong>OUTRO MUNDO</strong>, com soluções simples e otimizadas que facilitarão a sua vida.</h2>
+
+                    <button type="button" class="btn btn-outline-success botao"><strong>ABOUT US</strong></button>
+
+                </div>
+
+                <div class="et-espaco col-sm-12 col-md-6">
+                    <div class="row row-cols-1 row-cols-md-2">
+                        <div class="col mb-4">
+                            <div class="card h-100">
+                                <img src="img/alien1.jpg" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card h-100">
+                                <img src="img/alien1.jpg" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card h-100">
+                                <img src="img/alien1.jpg" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card h-100">
+                                <img src="img/alien1.jpg" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+    <div class="banner">
+        <h2 class="col-12 text-center descubra2">Clientes</h2>
+        <div class="cards row">
+            <div class="col-md-4 col-sm-6 .col-12">
+                <div class="card col-card">
+                    <img src="img/4ever_21.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 .col-12">
+                <div class="card col-card">
+                    <img src="img/4ever_21.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 .col-12">
+                <div class="card col-card">
+                    <img src="img/4ever_21.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 .col-12">
+                <div class="card col-card">
+                    <img src="img/4ever_21.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 .col-12">
+                <div class="card col-card">
+                    <img src="img/4ever_21.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 .col-12">
+                <div class="card col-card">
+                    <img src="img/4ever_21.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container nosso-blog" id="carreira">
+        <div class="row">
+            <div class="col-sm-12 col-md-3" id="texto1">
+                <img class="img-fluid" src="img/alien4.png">
+                <span type="button" class="home-blog"> <a href="file:///C:/Users/jessica.barbosa/Desktop/formacao_itlinda/site_aliens/vagas.html" target="_blank">Nossas vagas</a></span>
+            </div>
+            <div class="col-sm-12 col-md-3" id="texto1">
+                <img class="img-fluid" src="img/alien4.png">
+                <spam type="button" class="home-blog"> <a href="#" target="_blank">Envie seu currículo</a></spam>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <h2 class="descubra">Carreira</h2>
+                <h2 class="story"><strong>Q U E R &nbsp; S E R &nbsp; A B D U Z I D O ?</strong></h2>
+                <h2 class="texto-story"><strong>Aqui suas ideias não ficam soltas pelo espaço!</strong><br><br>
+
+                    Acreditamos que o nosso maior patrimônio são vocês, nossos terráqueos <span
+                        style="color: rgb(78, 190, 106);"><strong>#SANGUEVERDE</strong></span>, nossa nave não decolaria
+                    sem vocês! Vem fazer parte desse time incrível e viajar no mundo <strong>Aliens Code</strong>.</h2>
+
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="rodape">
+        <div class="row h-100">
+            <div class="col-12 text-center">
+                <p>© ALIENS 2020 - <img src="img/alien.png" width="20" height="20"> <a
+                        href="http://www.adorocinema.com/filmes/filme-266958/">alienscode.com.br</a> - São
+                    Paulo/SP - Tel: (11) 4444-4444
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

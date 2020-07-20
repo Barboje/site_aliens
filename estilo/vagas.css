@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+
+.navbar {
+    background: rgb(35, 46, 37) !important;
+    box-shadow: 3px 3px 5px rgb(78, 190, 106);
+}
+
+.logo {
+    color: whitesmoke !important;
+    font-size: 25px;
+    border-bottom: 3px solid whitesmoke;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.navbar img {
+    margin-top: -3px;
+}
+
+.navbar h1 {
+    font-family: 'Abel', sans-serif;
+    color: whitesmoke;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-top: 6px;
+}
+
+.texto {
+    color: black;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card {
+    margin: 20px !important;
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+}
+
+i {
+    margin-right: 10px;
+}
+
+.botao {
+    background:  rgb(35, 46, 37);
+    filter: drop-shadow(3px 3px 3px rgb(78, 190, 106));
+    border-radius: 50px;
+    bottom: 20px;
+    color: whitesmoke;
+    font-family: 'Abel', sans-serif;
+    font-size: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.rodape {
+    background:  rgb(35, 46, 37);
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: 'Abel', sans-serif;
+    letter-spacing: 1mm;
+    margin-top: 30px;
+}
+
+.rodape p {
+    margin-top: 15px;
+}
+
+.rodape a {
+    color: rgb(78, 190, 106);
+}
+
+.rodape a:hover {
+    text-decoration: none;
+}
+
+.rodape img {
+    margin-top: -3px;
+}
