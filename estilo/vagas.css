@@ -3,6 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
 
+body {
+    overflow-x: hidden ;
+}
+
 .navbar {
     background: rgb(35, 46, 37) !important;
     box-shadow: 3px 3px 5px rgb(78, 190, 106);
