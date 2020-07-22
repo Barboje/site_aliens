@@ -17,64 +17,49 @@
     margin-top: 10px;
 }
 
-.navbar img {
-    margin-top: -3px;
-}
-
-.navbar h1 {
-    font-family: 'Abel', sans-serif;
-    color: whitesmoke;
-    font-size: 20px;
-    margin-right: 20px;
-    margin-top: 6px;
-}
-
-.envie a {
-    font-family: 'Abel', sans-serif;
-    color:rgb(78, 190, 106) !important;
-    font-size: 20px;
-}
-
-.envie a:hover{
-    text-decoration: none;
-    color: whitesmoke !important;
-}
-
-.texto {
-    color: black;
-    font-size: 30px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.card {
-    margin: 20px !important;
+body {
     font-family: 'Abel', sans-serif;
     font-size: 20px;
 }
 
-i {
-    margin-right: 10px;
+form {
+    margin: 40PX;
 }
 
-.botao {
-    background:  rgb(35, 46, 37);
-    filter: drop-shadow(3px 3px 3px rgb(78, 190, 106));
-    border-radius: 50px;
-    bottom: 20px;
-    color: whitesmoke;
+h1 {
+    margin: 40px;
+    font-size: 40px;
+    color: rgb(35, 46, 37);
+    letter-spacing: 5px
+}
+
+h2 {
     font-family: 'Abel', sans-serif;
-    font-size: 15px;
-    padding-right: 30px;
-    padding-left: 30px;
+    font-size: 20px;
+    margin-bottom: 1rem;
 }
 
-.modal-footer {
-    display: block;
+.form-check {
+    margin-left: 40px;
+}
+
+.form-control {
+    border: 1px solid rgb(78, 190, 106) !important;
+}
+
+
+.espaco {
+    margin-bottom: 1rem;
 }
 
 .texto-arquivo {
-    color: black;
+    font-size: 25px;
+    color: rgb(35, 46, 37);
+    letter-spacing: 1px;     
+}
+
+.botao {
+    margin-left: -5px;
 }
 
 .rodape {
